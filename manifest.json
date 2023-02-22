@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Vodafone",
+  "description": "🎉🎉🎉🎉🎉🎉",
+  "version": "0.1.0",
+  "icons": {
+    "16": "icon16.png",
+    "128": "icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://web.vodafone.com.eg/spa/recharge"],
+      "js": ["vodafone.js"]
+    }
+  ]
+}
